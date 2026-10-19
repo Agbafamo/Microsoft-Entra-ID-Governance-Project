@@ -1,0 +1,5 @@
+AuditLogs
+| where Category == "RoleManagement" and OperationName has "activat"
+| extend Actor = tostring(InitiatedBy.user.userPrincipalName)
+| summarize Activations = count() by Actor, bin(TimeGenerated, 7d)
+| order by TimeGenerated desc

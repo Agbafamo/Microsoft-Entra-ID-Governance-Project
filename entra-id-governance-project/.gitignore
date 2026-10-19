@@ -1,0 +1,6 @@
+*.pfx
+*.pem
+*.key
+.env
+output/
+*.local.csv

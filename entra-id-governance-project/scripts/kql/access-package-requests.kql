@@ -1,0 +1,4 @@
+AuditLogs
+| where Category == "EntitlementManagement"
+| project TimeGenerated, OperationName, Result, Actor = tostring(InitiatedBy.user.userPrincipalName), TargetResources
+| order by TimeGenerated desc

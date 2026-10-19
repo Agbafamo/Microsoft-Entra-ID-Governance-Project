@@ -1,0 +1,6 @@
+DisplayName,UserPrincipalName,Department,JobTitle,Manager
+Alice Okafor,alice.okafor@YOURTENANT.onmicrosoft.com,Finance,Finance Analyst,bola.adeyemi@YOURTENANT.onmicrosoft.com
+Bola Adeyemi,bola.adeyemi@YOURTENANT.onmicrosoft.com,Finance,Finance Manager,
+Chidi Eze,chidi.eze@YOURTENANT.onmicrosoft.com,IT,Helpdesk Engineer,dara.lawal@YOURTENANT.onmicrosoft.com
+Dara Lawal,dara.lawal@YOURTENANT.onmicrosoft.com,Security,Security Lead,
+Seun Bakare,seun.bakare@YOURTENANT.onmicrosoft.com,Sales,Sales Executive,dara.lawal@YOURTENANT.onmicrosoft.com

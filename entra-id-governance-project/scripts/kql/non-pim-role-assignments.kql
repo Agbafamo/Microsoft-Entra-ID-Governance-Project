@@ -1,0 +1,5 @@
+AuditLogs
+| where OperationName has "Add member to role" and OperationName !has "PIM"
+| extend Actor = tostring(InitiatedBy.user.userPrincipalName)
+| project TimeGenerated, OperationName, Actor, TargetResources, Result
+| order by TimeGenerated desc
